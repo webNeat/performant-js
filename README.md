@@ -17,10 +17,14 @@ A practical guide to improve the performance of your JS code.
 ## The rules
 
 1. Avoid **nested loops** when possible.
+
+  - [Filter invited guests](examples/filter-invited-guests.md)
+  - [Group clients with their orders](examples/group-clients-with-orders.md)
+
 2. Avoid **creating new objects** when possible.
 
-Yes, those are all the simple rules I could come up with so far.
+Yes, those are all the simple rules I could come up with so far. I will add more rules soon :)
 
-Let's apply them on some concrete examples:
+## Contributing
 
-- [Filter invited guests](examples/filter-invited-guests.md)
+Feel free to open an issue/PR to add new rules or examples. I will be reviewing them and trying to keep the guide concise and each example focused on a single rule.
