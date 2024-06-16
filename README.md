@@ -18,12 +18,12 @@ A couple of rules to improve the performance of your JS code.
 
 1. Avoid **nested loops** when possible.
 
-  - **Use a Set:** [Filter invited guests](examples/filter-invited-guests/README.md)
-  - **Use an index:** [Group clients with their orders](examples/group-clients-with-orders/README.md)
+  - **Use a Set.** ex: [Filter invited guests](examples/filter-invited-guests/README.md)
+  - **Use an index.** ex: [Group clients with their orders](examples/group-clients-with-orders/README.md)
 
 2. Avoid **creating new objects** when possible.
 
-  - **Mutate the array:** [Separate odd and even numbers](examples/separate-odd-even-numbers/README.md)
+  - **Mutate the object.** ex: [Separate odd and even numbers](examples/separate-odd-even-numbers/README.md)
 
 Yes, those are all the simple rules I could come up with so far. I will add more rules soon :)
 

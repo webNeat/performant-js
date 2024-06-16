@@ -40,7 +40,7 @@ This mutates the arrays instead of creating new ones. So **we avoided creating u
 
 if your coding style forces you not to mutate variables. You can avoid using `.reduce` and use `.filter` instead. Which is cleaner in my opinion:
 
-```
+```js
 {{code_faster_filter_solution}}
 ```
 
