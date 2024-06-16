@@ -57,7 +57,7 @@ This mutates the arrays instead of creating new ones. So **we avoided creating u
 
 if your coding style forces you not to mutate variables. You can avoid using `.reduce` and use `.filter` instead. Which is cleaner in my opinion:
 
-```
+```js
 function faster_filter_solution(integers) {
   return {
     odd: integers.filter((n) => n % 2 === 1),
@@ -68,6 +68,6 @@ function faster_filter_solution(integers) {
 
 ## Benchmark
 
-<table><tr><td></td><td>slow_solution</td><td>faster_reduce_solution</td><td>faster_filter_solution</td></tr><tr><td>1k integers</td><td>2.401 ms</td><td>0.196 ms</td><td>0.248 ms</td></tr><tr><td>10k integers</td><td>79.784 ms</td><td>0.635 ms</td><td>0.730 ms</td></tr><tr><td>100k integers</td><td>26236.635 ms</td><td>2.246 ms</td><td>3.256 ms</td></tr></table>
+<table><tr><td></td><td>slow_solution</td><td>faster_reduce_solution</td><td>faster_filter_solution</td></tr><tr><td>1k integers</td><td>5.216 ms</td><td>0.247 ms</td><td>0.215 ms</td></tr><tr><td>10k integers</td><td>57.073 ms</td><td>0.541 ms</td><td>0.638 ms</td></tr><tr><td>100k integers</td><td>27299.561 ms</td><td>3.823 ms</td><td>2.969 ms</td></tr></table>
 
 _Benchmark run on Github actions_

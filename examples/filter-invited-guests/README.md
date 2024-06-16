@@ -56,6 +56,6 @@ The `Set.has` method is not a loop, it's more like accessing a property in an ob
 
 ## Benchmark
 
-<table><tr><td></td><td>slow_solution</td><td>faster_solution</td></tr><tr><td>1k guests and 500 invitations</td><td>4.345 ms</td><td>0.329 ms</td></tr><tr><td>10k guests and 5k invitations</td><td>397.318 ms</td><td>1.416 ms</td></tr><tr><td>100k guests and 50k invitations</td><td>16913.460 ms</td><td>16.330 ms</td></tr></table>
+<table><tr><td></td><td>slow_solution</td><td>faster_solution</td></tr><tr><td>1k guests and 500 invitations</td><td>4.506 ms</td><td>0.262 ms</td></tr><tr><td>10k guests and 5k invitations</td><td>445.388 ms</td><td>1.390 ms</td></tr><tr><td>100k guests and 50k invitations</td><td>16936.801 ms</td><td>16.690 ms</td></tr></table>
 
 _Benchmark run on Github actions_
