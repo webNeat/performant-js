@@ -77,6 +77,6 @@ We did a single loop to create the index (we assume that `.push` is not a loop, 
 
 ## Benchmark
 
-<table><tr><td></td><td>slow_solution</td><td>faster_solution</td></tr><tr><td>100 clients and 1k</td><td>4.067 ms</td><td>0.772 ms</td></tr><tr><td>500 clients and 10k orders</td><td>42.586 ms</td><td>9.577 ms</td></tr><tr><td>5k clients and 100k orders</td><td>4099.838 ms</td><td>8.637 ms</td></tr></table>
+<table><tr><td></td><td>slow_solution</td><td>faster_solution</td></tr><tr><td>100 clients and 1k</td><td>2.721 ms</td><td>0.915 ms</td></tr><tr><td>500 clients and 10k orders</td><td>43.691 ms</td><td>9.407 ms</td></tr><tr><td>5k clients and 100k orders</td><td>4082.914 ms</td><td>7.489 ms</td></tr></table>
 
 _Benchmark run on Github actions_
