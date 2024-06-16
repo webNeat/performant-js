@@ -18,8 +18,8 @@ A practical guide to improve the performance of your JS code.
 
 1. Avoid **nested loops** when possible.
 
-  - [Filter invited guests](examples/filter-invited-guests.md)
-  - [Group clients with their orders](examples/group-clients-with-orders.md)
+  - [Filter invited guests](examples/filter-invited-guests/README.md)
+  - [Group clients with their orders](examples/group-clients-with-orders/README.md)
 
 2. Avoid **creating new objects** when possible.
 
